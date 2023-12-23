@@ -1,0 +1,7 @@
+MVI A, 00H
+MVI B, 01H
+ADD:
+INR A
+SUB A, B
+JZ ADD
+HLT
